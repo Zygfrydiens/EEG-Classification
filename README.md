@@ -27,7 +27,10 @@ Electroencephalography (EEG) is a non-invasive method used to record electrical 
 A collaborative project between CU Anschutz and ULN has focused on collecting EEG data from subjects as they engage in mental visualization of motor-based tasks. During these sessions, participants were instructed to visualize performing two types of tasks: one that was highly familiar to them and another that was unfamiliar. The primary objective of this study is to develop a classifier capable of accurately distinguishing between the EEG patterns associated with familiar and unfamiliar task visualizations. By analyzing the neural signatures captured during these sessions, the project aims to advance our understanding of how familiarity with a task influences brain activity and to create a reliable tool for identifying the nature of the task being visualized based on EEG data. This research has significant implications for fields such as neurorehabilitation, where understanding and enhancing motor imagery could play a critical role in recovery and training protocols.
 
 ### Data description
-Each .csv file consist of 14 channels of EEG data. The end of the name of the file signifies if the file contains data of familiar (KS) or unfamiliar (US)movement brain state.
+Each .csv file consist of 14 channels of EEG data from 14 probes places around the scalp. The end of the name of the file signifies if the file contains data of familiar (KS) or unfamiliar (US)movement brain state. The sampling rate is 128 hz. Each of 8 subjects participated in two 1 minute sessions. Therefore the total number of datapoints is on the order of 14x128x60x8x2 = 1,720,320.
+
+![Alt Text](https://i.imgur.com/rFrAlKZ.png)
+
     
 ### Source of dataset
 
